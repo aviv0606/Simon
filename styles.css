@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-color:navy
+}
+h1{
+    font-size:80;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
+.btn{
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.red{
+    background-color:red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color:yellow;
+}
+.green{
+    background-color: green;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
+.playing{
+    cursor: not-allowed;
+}
